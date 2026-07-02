@@ -6,8 +6,8 @@
   <title>Kachuful Scorekeeper</title>
 
   <!-- Optional live sync. Snapshot/local scorekeeping works without Firebase. -->
-  <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-database-compat.js"></script>
+  <!-- <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script> -->
+  <!-- <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-database-compat.js"></script> -->
 
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@400;600;700;800;900&display=swap');
@@ -432,15 +432,7 @@
     For true live score updates on every phone, create a Firebase Realtime
     Database project and paste your web config below. Then use Share > START LIVE.
   */
-  const FIREBASE_CONFIG = {
-    apiKey: "AIzaSyDyGIvBQuwEH_9hKJnk6SMZPlwEydkk6qg",
-    authDomain: "kachuful-5834e.firebaseapp.com",
-    databaseURL: "https://kachuful-5834e-default-rtdb.firebaseio.com/",
-    projectId: "kachuful-5834e",
-    storageBucket: "kachuful-5834e.firebasestorage.app",
-    messagingSenderId: "719889903376",
-    appId: "1:719889903376:web:152117fd15da6ef0b3bf95"
-  };
+  const FIREBASE_CONFIG = {};
 
   const STORAGE_KEY = "kachuful_mobile_fixed_v2";
   const OLD_KEYS = ["kachuful_mobile_fixed_v1", "kachuful_pro_state_v4", "kachuful_pro_state_v3", "kachuful_pro_state_v2"];
